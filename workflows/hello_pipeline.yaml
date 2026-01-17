@@ -1,14 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: WorkflowTemplate
 metadata:
-  name: housecode-pipeline-v2
+  name: house-price-execution-v1
   annotations:
-    scenarios.ai.sap.com/description: "Tutorial to add custom code to SAP AI Core"
-    scenarios.ai.sap.com/name: "CodeTutorialNew"
+    scenarios.ai.sap.com/description: "House price prediction workflow"
+    scenarios.ai.sap.com/name: "House Price Prediction"
     executables.ai.sap.com/description: "Trains model on median house prices"
-    executables.ai.sap.com/name: "House Price (Sklearn Example)"
+    executables.ai.sap.com/name: "House Price Training"
   labels:
-    scenarios.ai.sap.com/id: "learning-code-tut-new"
+    scenarios.ai.sap.com/id: "house-price-code-new"
     ai.sap.com/version: "1.0"
 spec:
   imagePullSecrets:
