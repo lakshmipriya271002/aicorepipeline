@@ -4,11 +4,11 @@ metadata:
   name: house-price-execution-v1
   annotations:
     scenarios.ai.sap.com/description: "House price prediction workflow"
-    scenarios.ai.sap.com/name: "House Price Prediction"
+    scenarios.ai.sap.com/name: "HousePricePredictionPriya"
     executables.ai.sap.com/description: "Trains model on median house prices"
-    executables.ai.sap.com/name: "House Price Training"
+    executables.ai.sap.com/name: "HousePriceTraining"
   labels:
-    scenarios.ai.sap.com/id: "house-price-code-new"
+    scenarios.ai.sap.com/id: "house-price-priya-2026"
     ai.sap.com/version: "1.0"
 spec:
   imagePullSecrets:
